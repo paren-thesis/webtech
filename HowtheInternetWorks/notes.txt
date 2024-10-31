@@ -1,0 +1,20 @@
+1. How search works
+Make a search --> ISP (Internet Service Provider) --> DNS (Domain Name Server)
+Request returned (html, css, js) <-- ISP <-- DNS
+
+2. The Internet Backbone
+Wifi --> Router --> Modem --> Wired/Wireless Connection --> ISP --> Internet Backbone
+
+3. Trace route
+On Mac terminal (traceroute google.com)
+On Window (tracert google.com)
+This will show the amount of computers that are trying to locate google.com
+
+4. What would make this process fast
+-> Location of the server
+-> How many trips
+-> Size of files (html, css, js)
+
+5. Front End / Back End
+-> Front End (The person who designs what ever the user sees)
+-> Back End (The person who works with the server)
