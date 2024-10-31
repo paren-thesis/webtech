@@ -37,4 +37,17 @@ The <b> and <i> tags are no more recommended instead
 `<strong> To bold content </strong>
 <em> To italicize content </em>
 `
+- Ordered List Items are numbered
+`<ol>
+    <li> Item 1 </li>
+    <li> Item 2 </li>
+    <li> Item 3 </li>
+</ol>`
+
+- Unordered List These are not numbered
+`<ul>
+    <li> Item 1 </li>
+    <li> Item 2 </li>
+    <li> Item 3 </li>
+</ul>`
 
