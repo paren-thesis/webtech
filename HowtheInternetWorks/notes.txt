@@ -51,3 +51,18 @@ The <b> and <i> tags are no more recommended instead
     <li> Item 3 </li>
 </ul>`
 
+## Tables
+`<table>
+
+</table>`
+
+-Table row
+`<tr>
+
+</tr>`
+
+-Table data
+`<td>
+
+</td>`
+
