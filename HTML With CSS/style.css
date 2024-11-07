@@ -1,0 +1,35 @@
+#container {
+    width: 1000px;
+    height: 700px;
+    background-color: #0000ff;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#banner {
+    width: 1000px;
+    height: 300px;
+    background-color:#df37e9;
+}
+
+#nav {
+    width: 1000px;
+    height: 50px;
+    background-color:#5a0411;
+}
+
+#content {
+    width: 700px;
+    height: 350px;
+    background-color:#389b38;
+}
+
+#sidebar {
+    
+}
+
+#foot {
+    width: 1000px;
+    height: 50px;
+    background-color: yellow;
+}
