@@ -1,0 +1,27 @@
+body {
+    background-color: darkgrey;
+}
+
+#heading {
+    width: 1000px;
+    height: 150;
+    background-color: blue;
+}
+
+#nav {
+    width: 1000px;
+    height: 50px;
+    background-color: darkgoldenrod;
+}
+
+#content {
+    width: 1000px;
+    height: 70;
+    background-color: aliceblue;
+}
+
+#footer {
+    width: 1000px;
+    height: 50;
+    background-color: blueviolet;
+}
