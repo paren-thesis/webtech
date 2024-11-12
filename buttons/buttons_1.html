@@ -9,6 +9,7 @@
     .body {
       margin: 5rem;
     }
+
     .sub-b {
       background-color: rgb(200, 0, 0);
       color: white;
@@ -18,7 +19,15 @@
       border-radius: 2px;
       cursor: pointer;
       margin-left: 5px;
-      /* padding: 0.6rem; */
+      transition: opacity 0.15s;
+    }
+
+    .sub-b:hover {
+      opacity: 0.8;
+    }
+
+    .sub-b:active {
+      opacity: 0.3;
     }
 
     .join-b {
@@ -31,10 +40,21 @@
       border-radius: 2px;
       cursor: pointer;
       margin-left: 5px;
+      transition: background-color 0.3s,
+        color 0.3s;
     }
 
-    .tweet{
-      background-color:  rgb(2, 141, 255);
+    .join-b:hover {
+      background-color: rgb(64, 64, 218);
+      color: white;
+    }
+
+    .join-b:active {
+      opacity: 0.7;
+    }
+
+    .tweet {
+      background-color: rgb(2, 141, 255);
       border-radius: 18px;
       height: 36px;
       width: 70px;
@@ -44,6 +64,11 @@
       font-size: 15px;
       cursor: pointer;
       margin-left: 8px;
+      transition: box-shadow 0.15s;
+    }
+
+    .tweet:hover {
+      box-shadow: 3px 3px 10px rgb(204, 204, 204);
     }
   </style>
 </head>
@@ -53,9 +78,9 @@
     SUBSCRIBE</button>
   <button class="join-b">
     JOIN</button>
-    <button class="tweet">
-      Tweet
-    </button>
+  <button class="tweet">
+    Tweet
+  </button>
 </body>
 
 </html>
