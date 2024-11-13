@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .body {
+      margin: 5rem;
+    }
+
+    .sub-b {
+      background-color: rgb(200, 0, 0);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 105px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-left: 5px;
+      transition: opacity 0.15s;
+    }
+
+    .sub-b:hover {
+      opacity: 0.8;
+    }
+
+    .sub-b:active {
+      opacity: 0.3;
+    }
+
+    .join-b {
+      background-color: rgb(250, 250, 250);
+      border-color: rgb(93, 93, 219);
+      border-style: solid;
+      border-width: 1px;
+      color: rgb(64, 64, 218);
+      height: 36px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-left: 5px;
+      transition: background-color 0.3s,
+        color 0.3s;
+    }
+
+    .join-b:hover {
+      background-color: rgb(64, 64, 218);
+      color: white;
+    }
+
+    .join-b:active {
+      opacity: 0.7;
+    }
+
+    .tweet {
+      background-color: rgb(2, 141, 255);
+      border-radius: 18px;
+      height: 36px;
+      width: 70px;
+      color: white;
+      border: none;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      margin-left: 8px;
+      transition: box-shadow 0.15s;
+    }
+
+    .tweet:hover {
+      box-shadow: 3px 3px 10px rgb(204, 204, 204);
+    }
+  </style>
+</head>
+
+<body class="body">
+  <button class="sub-b">
+    SUBSCRIBE</button>
+  <button class="join-b">
+    JOIN</button>
+  <button class="tweet">
+    Tweet
+  </button>
+</body>
+
+</html>
