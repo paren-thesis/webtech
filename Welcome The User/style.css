@@ -1,0 +1,12 @@
+.contain {
+    align-content: center;
+    margin-left: 20px;
+    background-color: rgb(136, 230, 217);
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+.firstName {
+    font-size: 15px;
+}
