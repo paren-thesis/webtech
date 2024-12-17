@@ -33,10 +33,17 @@
     width: 600px;
     height: 400px;
     background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer {
     width: 900px;
     height: 50px;
+    color: white;
     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
