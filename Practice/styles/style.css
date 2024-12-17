@@ -1,0 +1,35 @@
+.container {
+    width: 900px;
+    height: 700px;
+    background-color: rgb(151, 151, 236);
+}
+
+.banner {
+    width: 900px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.menu {
+    width: 900px;
+    height: 50px;
+    background-color: brown;
+}
+
+.sidebar {
+    width: 900px;
+    height: 400px;
+    background-color: pink;
+}
+
+.content {
+    width: 600px;
+    height: 400px;
+    background-color: greenyellow;
+}
+
+.footer {
+    width: 900px;
+    height: 50px;
+    background-color: black;
+}
