@@ -22,5 +22,5 @@ if (choice >= 1 && choice <= 5) {
     }
     alert('Enjoy your ' + food);
 } else {
-    alert('This dish is not in the menu');
+    alert('This dish is not in the menu, pick a dish from 1 to 6');
 }
