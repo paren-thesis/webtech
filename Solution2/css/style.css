@@ -12,9 +12,6 @@ body {
 .banner {
     width: 100%;
     height: 200px;
-    background-image: url('../images/banner1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .banner img {
@@ -33,11 +30,13 @@ body {
 .menu table {
     width: 100%;
     height: 100%;
+
 }
 
 .menu td {
     width: 33.33%;
     text-align: center;
+    font-weight: 600;
 }
 
 .menu a {
@@ -58,6 +57,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center; 
+}
+
+#contain {
+    border: 3px solid black;
+    height: 20rem;
+    
 }
 
 .sidebar {
