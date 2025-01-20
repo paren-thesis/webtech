@@ -1,5 +1,5 @@
 
-        function interactWithChef() {
+        function CallChef() {
             let hasCookbook = prompt("Do you have a Cookbook? (yes/no)");
             if (hasCookbook.toLowerCase() === "yes") {
                 alert("This is good news, it means you may likely have the recipe we are looking for.");
