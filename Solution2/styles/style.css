@@ -1,0 +1,52 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#banner {
+    height: 250px;
+    background-color: #ccc; /* Placeholder color */
+}
+
+#navigation {
+    height: 30px;
+    background-color: green;
+    text-align: center;
+}
+
+#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+    height: 390px;
+    background-color: yellow;
+    float: left;
+    width: 60%;
+}
+
+#sidebar {
+    height: 390px;
+    background-color: brown;
+    float: right;
+    width: 40%;
+}
+
+#footer {
+    height: 30px;
+    background-color: orange;
+    clear: both;
+    text-align: center;
+}
